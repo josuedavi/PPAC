@@ -1,0 +1,141 @@
+
+
+body {
+background-color: #F5F5F5;
+
+   /*add this, otherwise change the img to block*/
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+}
+
+a.display-5 {
+ color: white;
+ font-size: 25px;
+    
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+#particles-js {
+  width: 100%;
+  height: 100vh;
+
+   background-image: url('../lightbluegrad.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+ 
+}
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+  height: 100vh;
+  
+}
+.navbar {
+     z-index: 9999;
+    
+}
+.card {
+    position: absolute;
+   z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+ margin-top: 10%;
+ 
+}
+
+.bg-company-red {
+    background-color: #001a33 !important;
+}
+
+
+.btn {
+ 
+ background-color: #001a33;
+ 
+
+}
+
+
+
+.page-header{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+ .btn {
+     color: white;
+     text-align: center;
+ }
+ 
+ .btn:hover {
+     color: white;
+ }
+ 
+ .go-back {
+     padding-left: 25px;
+     padding-top: 25px;
+     text-align: left;
+ }
+ 
+ a:link{
+     text-decoration: none;
+ }
+ a:hover {
+     color: #0598ce;
+ }
+ 
+ 
+@media (min-width: 583px) and (max-width: 973px){
+  .col-sm-4 {
+    max-width: initial;
+     }
+     .card {
+     width: 70%;
+     }
+  }
+
+
+@media (max-width: 765px){
+  .disp {
+      display: flex;
+align-items: center;
+  }
+     
+  }
+  
+ @media (min-width: 974px) {
+  
+     .card {
+     width: 35%;
+     }
+  }
+  
+   @media (min-width: 1200px) {
+  
+     .card {
+     width: 40%;
+     }
+  }
+  

@@ -1,0 +1,854 @@
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY CODE*/
+
+* {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px;
+}
+* {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+}
+
+header .header-brand {
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a {
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+header .header-cases {
+  display: none;
+}
+
+#active{
+  color: #1DA1F2;
+}
+
+#log{
+   color: #1DA1F2;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+
+  header nav ul {
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
+
+  header nav ul li a {
+    line-height: 60px;
+  }
+
+  header .header-cases {
+    display: block;
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+    line-height: 38px;
+    border: 1px solid #111;
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+}
+
+/*CASE*/
+
+.case-vid h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.case-vid video {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.case-vid article h3 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.case-vid article div p {
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #111;
+  text-transform: uppercase;
+  column-count: 3;
+  column-gap: 30px;
+}
+
+/*GALLERY*/
+
+.gallery-links h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.gallery-container a {
+  width: 230px;
+  margin: 20px 10px 0;
+}
+
+.gallery-container a:hover {
+  opacity: 0.8;
+}
+
+.gallery-container a div {
+  width: 100%;
+  height: 235px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-container a h3 {
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  padding-top: 16px;
+  line-height: 26px;
+}
+
+.gallery-container a p {
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 400;
+  color: #111;
+  padding-top: 4px;
+  line-height: 20px;
+}
+
+.gallery-upload {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #F2F2F2;
+}
+
+.gallery-upload h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.gallery-upload form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.gallery-upload form input {
+  width: 500px;
+  height: 30px;
+  margin-top: 10px;
+  padding: 0 15px;
+  border-radius: 100px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+
+.gallery-upload-file-input {
+  padding-top: 8px !important;
+  background-color: #fefefe;
+}
+
+.gallery-upload form button {
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 100px;
+  box-shadow: none;
+  border: none;
+  background-color: #4EADFF;
+  color: #fff;
+  font-weight: 700;
+}
+button#btn{
+  background-color:#4EADFF ;
+}
+
+input:focus {
+    outline:none !important;
+}
+
+img#x {
+  position: absolute;
+  top: 105px;
+  left: 201px;
+}
+
+
+.cases-links {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cases-links h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.cases-links .cases-link {
+  float: left;
+  width: 230px;
+  height: 230px;
+  margin: 20px 10px 0px;
+  background-color: #e3e3e3;
+}
+
+.cases-links .cases-link p {
+  padding-top: 45%;
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.case-vid h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.case-vid video {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.case-vid article h3 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.case-vid article div p {
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #111;
+  text-transform: uppercase;
+  column-count: 3;
+  column-gap: 30px;
+}
+
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+
+body {
+    line-height:1;
+}
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+input, select {
+    vertical-align:middle;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+}
+
+header .header-brand {
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  
+  
+  list-style: none;
+  padding: 0 15px;
+  margin-left: 28px;
+  
+}
+
+header nav ul li a {
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+header .header-cases {
+   list-style: none;
+    text-transform: uppercase; 
+    
+}
+
+#hidden{
+    display: none;
+}
+
+#active{
+   color: #1DA1F2;
+   
+}
+
+#log{
+   color: #d21c38;
+  
+}
+
+#nav{
+    
+    text-align: center;
+    
+}
+.fullscreen{
+    height: 100vh;
+}
+
+#para{
+      display: none;
+}
+
+@media only screen and (max-width: 350px) {
+    #scroll {
+    text-align: center;
+    position: relative;
+    top: -125px;
+    }
+    #scroll-down {
+        height: 50px;
+        width: 50px;
+        align-items: center;
+    }
+    header nav ul li {
+      
+      
+      padding: 0 10px;
+      
+      
+    }
+    
+    #banner {
+        position: relative;
+        top: -75px;
+    }
+    
+    .mySlides {
+        height:80px;
+      width:80%;
+    }
+    .thumb{
+    padding:0 40px;
+   
+ 
+  
+  }
+}
+@media only screen and (min-width:351px) and (max-width: 374px) {
+   #scroll {
+    text-align: center;
+    position: relative;
+    top: -50px;
+    }
+    #scroll-down {
+        height: 50px;
+        width: 50px;
+        align-items: center;
+    }
+    header nav ul li {
+      
+      
+      padding: 0 10px;
+      
+      
+    }
+    #banner {
+        position: relative;
+        top: -75px;
+    }
+    
+    .mySlides {
+        height:80px;
+      width:80%;
+    }
+    .thumb{
+    padding:0 40px;
+   
+ 
+  
+  }
+    
+}
+@media only screen and (min-width:375px) and (max-width: 450px) {
+    #scroll {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    
+    }
+    #scroll-down {
+        height: 50px;
+        width: 50px;
+        align-items: center;
+    }
+    header nav ul li {
+      
+      float: left;
+      padding: 0 10px;
+      
+      
+    }
+    #banner {
+        position: relative;
+        top: 0px;
+    }
+    
+    
+
+    
+    .mySlides {
+        height:80px;
+      width:80%;
+    }
+    .thumb{
+    padding:0 40px;
+   
+ 
+  
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px){
+   header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+    nav ul li{
+        float: left;
+    }
+  header nav ul {
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
+
+  header nav ul li a {
+    line-height: 60px;
+  }
+
+  header .header-cases {
+    display: block;
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+    line-height: 38px;
+    border: 1px solid #111;
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+a#log{
+     float: right;
+ }
+  #paragraph{
+      padding: 0px 100px;
+      position: relative;
+      top:-150px;
+  }
+  #para{
+      display: inline;
+      font-size: 25px;
+      
+  }
+  #hidden{
+      display: block;
+  }
+     #scroll {
+    text-align: center;
+    position: relative;
+    top: -50px;
+    
+    }
+    #scroll-down {
+        height: 50px;
+        width: 50px;
+        align-items: center;
+    }
+    .thumb{
+    padding:0 100px;
+   
+ 
+  
+  }
+}
+    
+#banner {
+    font-size: 45px;
+    text-align: center;
+    padding: 200px 0;
+}    
+
+
+  .mySlides {
+      display:none;
+  height:500px;
+  width:80%;
+  /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .slideshow{
+      padding: 0 15px;
+      margin: 0;
+
+  }
+
+.entry-content {
+    padding-top: 150px;
+}
+
+
+  #content {
+    width: auto;
+    padding: 0px 20px;
+    margin: 0;
+    
+  }
+  
+  .entry-content {
+      text-align: center;
+  }
+  #primary {
+    float: none;
+    width: 100%;
+    margin-top: 0px;
+    padding: 30px 0px 30px 0px;
+  }
+  #container {
+    padding-top: 30px;
+    margin-top: 0px;
+  }
+  .thumb{
+    padding-left: 30px;
+   
+ 
+  
+  }
+
+  
+  .thumbsheet {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: -25px;
+    padding-top:30px;
+  
+  }

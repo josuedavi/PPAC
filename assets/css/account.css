@@ -1,0 +1,174 @@
+body {
+background-color: #F5F5F5;
+
+}
+
+a.display-5 {
+ color: white;
+ font-size: 25px;
+    
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+ 
+}
+
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+position: fixed;
+   background-image: url('../lightbluegrad.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+ 
+}
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+  height: 100vh;
+  
+}
+.navbar {
+     z-index: 9999;
+}
+.card {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+height: 85%;
+margin-top:5%;
+}
+
+.bg-company-red {
+    background-color: #001a33 !important;
+}
+
+
+.btn {
+ 
+ background-color: #001a33;
+ 
+
+}
+
+#ue {
+    color: #113768;
+}
+
+#click {
+    color: #0598ce;
+    font-weight:bold;
+}
+
+figcaption.figure-caption.text-center{
+  font-size: 30px;
+}
+
+.col-md-6.col-lg-4.col-xl-3 {
+    text-align: center;
+}
+
+.page-header{
+  text-align: center;
+}
+
+
+.row.justify-content-center {
+padding:0;
+}
+
+.date{
+  color: blue;
+}
+
+#name{
+  text-align: center;
+}
+.row {
+    padding-bottom: 50px;
+}
+
+
+@media (orientation: portrait) and (min-width: 583px) and (max-width: 973px){
+  .col-sm-4 {
+    max-width: initial;
+     }
+    
+  }
+  
+  @media (orientation: portrait) and (min-width: 583px) and (max-width: 973px){
+  .col-sm-4 {
+    max-width: initial;
+     }
+    
+  }
+
+
+@media (orientation: portrait) and (max-width: 765px){
+  .disp {
+      display: flex;
+align-items: center;
+  }
+     .card {
+         width: 60%;
+        
+     }
+  }
+  
+  @media (orientation: portrait) and (min-width: 350px) and (min-width:350px){
+  .disp {
+      display: flex;
+align-items: center;
+  }
+     .card {
+         width: 60%;
+         height: auto;
+        
+     }
+  }
+  
+  @media (orientation: landscape) and (max-width: 765px){
+   
+      
+  }
+  
+  
+ @media (orientation: portrait) and (min-width: 974px) {
+  
+     .card {
+     width: 45%;
+     height: auto!important;
+     }
+  }
+  
+   @media (orientation: portrait) and (min-width: 1200px) {
+  
+     .card {
+     width: 50%;
+     height: auto!important;
+     }
+  }
+  

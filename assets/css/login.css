@@ -1,0 +1,266 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+   html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+   body{line-height:1}
+   article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+   nav ul{list-style:none}
+   blockquote,q{quotes:none}
+   blockquote:before,blockquote:after,q:before,q:after{content:none}
+   a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+   mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+   del{text-decoration:line-through}
+   abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+   table{border-collapse:collapse;border-spacing:0}
+   hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+   input,select{vertical-align:middle}
+   li{list-style:none}
+   
+   
+   /* =============================================================================
+	  My CSS
+	  ========================================================================== */
+   
+   /* ---- base ---- */
+   
+   html,body{ 
+	   width:100%;
+	   height: 100%;
+   
+   }
+   
+   html{
+	 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   }
+   
+   body{
+	 font:normal 75% Arial, Helvetica, sans-serif;
+   }
+   
+   canvas{
+	 display:block;
+	 vertical-align:bottom;
+	 position : absolute; width:100%;
+	 height:100%;
+	  position: fixed;
+   }
+   
+   
+   
+   
+   /* ---- particles.js container ---- */
+   
+   #particles-js{
+	 width: 100%;
+	 height: 100%;
+	
+	 background-image: url('../lightbluegrad.jpg');
+	 background-size: cover;
+	 background-position: 50% 50%;
+	 background-repeat: no-repeat;
+	
+   
+   }
+   
+   .navbar-brand{
+	color: #113768;
+	font-size: 20px;
+  }
+  
+  .navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+
+.navbar-toggle {
+    z-index:3;
+}
+  a.navbar-brand {
+	color: #113768;
+	font-size: 20px;
+  }
+
+  #login-submit {
+      background-color: #113768;
+  }
+  
+ 
+   
+   
+   .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+    @media (orientation: portrait) and (min-width: 0px) and (max-width: 767px) {
+	.container {
+		position: relative;
+		z-index: 10;
+	    padding-top: 10%;
+	      transform: translate(-50%, -50%);
+	   left: 50%;top: 50%;
+	} 
+canvas {
+    display:block;
+    background: rgb(33,36,50);
+    position: fixed;
+    z-index: -1;
+}
+	#hide{
+	    display: block!important ;
+	}
+   }
+
+
+ @media (orientation: landscape) and (min-width: 0px) and (max-width: 849px) {
+     
+     #particles-js {
+         padding-top: 50%;
+         height: auto;
+      
+     }
+     .container {
+        position: relative;
+		z-index: 10;
+	   margin: 0px 0px;
+	      transform: translate(-50%, -50%);
+	   left: 50%;top: 50%;
+	  
+     }
+     
+     
+ }
+  @media (orientation: landscape) and (min-width:850px){
+     	.container {
+		position: absolute;
+		z-index: 10;
+		   
+	   transform: translate(-50%, -50%);
+	   left: 50%;top: 50%;
+	
+	} 
+}
+
+   @media (orientation: portrait) and (min-width:768px) {
+       #particles-js {
+           height: 100%;
+           
+       }
+	.container {
+		position: absolute;
+		z-index: 10;
+	
+		
+	   transform: translate(-50%, -50%);
+	   left: 50%;top: 50%;
+	
+	} 
+	#hide {
+	    display: none!important;
+	}
+   }
+
+a:hover {
+	text-decoration: none;
+  }
+  
+.panel-login {
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #0598ce;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E0;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #59B2E0;
+	border-color: #59B2E0;
+}
+
+
